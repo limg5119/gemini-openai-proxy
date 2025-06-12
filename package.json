@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@hono/node-server": "1.14.0",
-    "eventsource-parser": "3.0.1",
+    "eventsource-parser": "3.0.2",
     "itty-router": "5.0.18"
   },
   "devDependencies": {
