@@ -1,0 +1,26 @@
+{
+  "exclude": ["./dist", "./coverage"],
+  "lock": {
+    "frozen": false
+  },
+  "imports": {
+    "openapi-format": "https://esm.sh/openapi-format?bundle"
+  },
+  "nodeModulesDir": "auto",
+  "fmt": {
+    "exclude": ["*"]
+  },
+  "compilerOptions": {
+    "useUnknownInCatchVariables": false,
+    "lib": [
+      "ESNext.Array",
+      "DOM",
+      "DOM.AsyncIterable",
+      "DOM.Iterable",
+      "ESNext",
+      "ESNext.Disposable",
+      "ESNext.AsyncIterable",
+      "deno.ns"
+    ]
+  }
+}
